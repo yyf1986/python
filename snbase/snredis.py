@@ -3,7 +3,7 @@
 '''
 Created on 2014-4-18
 
-@author: YAO
+@author: 11113072
 '''
 import redis
 class Snredis(object):
