@@ -12,10 +12,7 @@ import snlog
 class Db():
     def __init__(self):
         try:
-            #test
             self.conn = MySQLdb.connect(host='192.168.242.11',user='root',passwd='itsmsitdb',db='snpub',charset="utf8")
-            #prd
-            #self.conn = MySQLdb.connect(host='192.168.242.10',user='autopatrol',passwd='autopatrol',db='snpub',charset="utf8")
             self.cursor = self.conn.cursor()
         except Exception, e:
             loger = snlog.Log("db")
