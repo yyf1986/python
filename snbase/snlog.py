@@ -8,7 +8,6 @@ Created on 2014-2-26
 import logging
 import os
 import sys
-import logconfig
 reload(sys)
 sys.setdefaultencoding('utf8')
 import time
